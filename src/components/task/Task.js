@@ -32,11 +32,12 @@ class Task extends React.Component{
         return(
             <div>
                 <br/><br/>
-                <input 
+                {/* <input 
                     type="submit"
                     value="Add Course"
-                    className="btn btn-create"
-                    onClick={this.redirectToAddCoursePage}/>
+                    className="btn-create"
+                    onClick={this.redirectToAddCoursePage}/> */}
+                    <button className="btn btn-create" onClick={this.redirectToAddCoursePage}><i className="fa fa-plus"></i>Add Task</button>
 
                 <table className="table">
                     <thead className="thead-light">

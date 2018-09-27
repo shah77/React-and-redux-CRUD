@@ -21,6 +21,7 @@ nav{
   color: white;
   width: 40px;
   height: 40px;
+  text-shadow: 2px 2px 2px rgb(56, 56, 56);
 }
 
 *:active{
@@ -41,6 +42,7 @@ nav{
   color: white;
   width: 40px;
   height: 40px;
+  text-shadow: 2px 2px 2px rgb(56, 56, 56);
 }
 
 .content{
