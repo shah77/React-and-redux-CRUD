@@ -1,0 +1,9 @@
+//for taskApi
+export const LOAD_TASK_SUCCESS = 'LOAD_TASK_SUCCESS';
+export const CREATE_TASK_SUCCESS = 'CREATE_TEAM_SUCCESS';
+export const UPDATE_TASK_SUCCESS = 'UPDATE_TASK_SUCCESS';
+export const DELETE_TASK_SUCCESS = 'DELETE_TASK_SUCCESS';
+
+//for teamApi
+export const LOAD_TEAM_SUCCESS = 'LOAD_TEAM_SUCCESS';
+
