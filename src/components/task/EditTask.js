@@ -27,7 +27,6 @@ class EditTask extends React.Component{
 
     updateTask(event){
         event.preventDefault();
-        console.log("click click");
         this.setState({saving: true});
         this.props.actions.saveTask(this.state.task)
             .then(() => this.redirect()).catch(error => {
